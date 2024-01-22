@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/blue_background.xml" value="0.1535" />
+        <entry key="app/src/main/res/drawable/drawabl_1.xml" value="0.17" />
+        <entry key="app/src/main/res/drawable/drawable_2.xml" value="0.1535" />
+        <entry key="app/src/main/res/drawable/yellow_background.xml" value="0.1535" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.26153846153846155" />
         <entry key="app/src/main/res/layout/constarintlayout_homework2.xml" value="0.13994565217391305" />
         <entry key="app/src/main/res/layout/constraintlayout_01.xml" value="0.21367521367521367" />
@@ -12,8 +16,10 @@
         <entry key="app/src/main/res/layout/constraintlayout_5.xml" value="0.13247863247863248" />
         <entry key="app/src/main/res/layout/constraintlayout_6.xml" value="0.20341880341880342" />
         <entry key="app/src/main/res/layout/constraintlayout_7.xml" value="0.20341880341880342" />
+        <entry key="app/src/main/res/layout/drawable.xml" value="0.13405797101449277" />
         <entry key="app/src/main/res/layout/framlayout.xml" value="0.13994565217391305" />
         <entry key="app/src/main/res/layout/gravity.xml" value="0.21196581196581196" />
+        <entry key="app/src/main/res/layout/homework_1.xml" value="0.25" />
         <entry key="app/src/main/res/layout/linearlayout.xml" value="0.20606884057971014" />
         <entry key="app/src/main/res/layout/linearlayout_05.xml" value="0.26153846153846155" />
         <entry key="app/src/main/res/layout/linearlayout_homwork.xml" value="0.20606884057971014" />
@@ -22,7 +28,9 @@
         <entry key="app/src/main/res/layout/relativelayout_2.xml" value="0.1793478260869565" />
         <entry key="app/src/main/res/layout/relativelayout_homework1.xml" value="0.26153846153846155" />
         <entry key="app/src/main/res/layout/relativelayout_homework2.xml" value="0.1793478260869565" />
+        <entry key="app/src/main/res/layout/resource.xml" value="0.13405797101449277" />
         <entry key="app/src/main/res/layout/scrollview.xml" value="0.13994565217391305" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1765" />
       </map>
     </option>
   </component>
