@@ -10,10 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FastCampus">
         <activity
-            android:name=".TestActivity"
+            android:name=".ViewControl_02"
             android:exported="true" />
         <activity
+            android:name=".Activity_01"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Homework_1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

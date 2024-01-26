@@ -6,8 +6,11 @@
         <entry key="app/src/main/res/drawable/blue_background.xml" value="0.1535" />
         <entry key="app/src/main/res/drawable/drawabl_1.xml" value="0.17" />
         <entry key="app/src/main/res/drawable/drawable_2.xml" value="0.1535" />
+        <entry key="app/src/main/res/drawable/number_bg.xml" value="0.152" />
         <entry key="app/src/main/res/drawable/yellow_background.xml" value="0.1535" />
+        <entry key="app/src/main/res/layout/activity_homework1.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.26153846153846155" />
+        <entry key="app/src/main/res/layout/activity_view_control02.xml" value="0.25" />
         <entry key="app/src/main/res/layout/constarintlayout_homework2.xml" value="0.13994565217391305" />
         <entry key="app/src/main/res/layout/constraintlayout_01.xml" value="0.21367521367521367" />
         <entry key="app/src/main/res/layout/constraintlayout_2.xml" value="0.20341880341880342" />
