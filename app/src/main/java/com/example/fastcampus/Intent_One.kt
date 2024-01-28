@@ -22,6 +22,7 @@ class Intent_One : AppCompatActivity() {
         //      - URL
         //              - 인터넷 페이지의 고유한 주소
         // 명시적 인텐트 + data 전달
+
         val implicit_intent : TextView = findViewById(R.id.implicit_intent)
         implicit_intent.setOnClickListener {
             val intent : Intent = Intent(

@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FastCampus">
         <activity
+            android:name=".ActivityThree"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityTwo"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityOne"
+            android:exported="true" />
+        <activity
             android:name=".Intent_Two"
             android:exported="true" />
         <activity
