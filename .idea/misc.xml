@@ -9,10 +9,15 @@
         <entry key="app/src/main/res/drawable/number_bg.xml" value="0.152" />
         <entry key="app/src/main/res/drawable/yellow_background.xml" value="0.1535" />
         <entry key="app/src/main/res/layout/activity_homework1.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_homework2.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_intent_one.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.26153846153846155" />
         <entry key="app/src/main/res/layout/activity_one.xml" value="0.1893162393162393" />
+        <entry key="app/src/main/res/layout/activity_one2.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/activity_three2.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/activity_two2.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_view_control02.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_youtube.xml" value="0.22" />
         <entry key="app/src/main/res/layout/constarintlayout_homework2.xml" value="0.13994565217391305" />
         <entry key="app/src/main/res/layout/constraintlayout_01.xml" value="0.21367521367521367" />
         <entry key="app/src/main/res/layout/constraintlayout_2.xml" value="0.20341880341880342" />
@@ -36,6 +41,7 @@
         <entry key="app/src/main/res/layout/resource.xml" value="0.13405797101449277" />
         <entry key="app/src/main/res/layout/scrollview.xml" value="0.13994565217391305" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1765" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -32,7 +32,6 @@
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="250dp"
             android:layout_height="40dp"
-            android:background="@drawable/blue_background"
             android:gravity="center_vertical"
             android:paddingLeft="22dp"
             android:orientation="horizontal">
@@ -80,7 +79,6 @@
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="250dp"
             android:layout_height="40dp"
-            android:background="@drawable/yellow_background"
             android:gravity="center_vertical"
             android:paddingLeft="22dp"
             android:orientation="horizontal">
