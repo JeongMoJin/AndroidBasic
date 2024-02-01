@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/drawable/drawable_2.xml" value="0.1535" />
         <entry key="app/src/main/res/drawable/number_bg.xml" value="0.152" />
         <entry key="app/src/main/res/drawable/yellow_background.xml" value="0.1535" />
+        <entry key="app/src/main/res/layout/activity_asnyc.xml" value="0.17094017094017094" />
         <entry key="app/src/main/res/layout/activity_fragment.xml" value="0.1743659420289855" />
         <entry key="app/src/main/res/layout/activity_homework1.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_homework2.xml" value="0.16893115942028986" />
@@ -15,6 +16,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.26153846153846155" />
         <entry key="app/src/main/res/layout/activity_one.xml" value="0.1893162393162393" />
         <entry key="app/src/main/res/layout/activity_one2.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/activity_thread.xml" value="0.1282051282051282" />
         <entry key="app/src/main/res/layout/activity_three2.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_two2.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_view_control02.xml" value="0.25" />

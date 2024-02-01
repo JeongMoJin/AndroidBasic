@@ -57,8 +57,6 @@ class FragmentActivity : AppCompatActivity() {
             supportFragmentManager.findFragmentByTag("fragment_first_tag") as FragmentFirst
             fragmentFirst.printTestLog()
         }
-
-
     }
 
     fun printTestLog() {
