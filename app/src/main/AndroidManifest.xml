@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FastCampus">
         <activity
+            android:name=".MasterApplication"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
             android:name=".AsnycActivity"
             android:exported="true">
             <intent-filter>
