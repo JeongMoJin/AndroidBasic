@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/drawable/drawable_2.xml" value="0.1535" />
         <entry key="app/src/main/res/drawable/number_bg.xml" value="0.152" />
         <entry key="app/src/main/res/drawable/yellow_background.xml" value="0.1535" />
+        <entry key="app/src/main/res/layout/activity_add_view.xml" value="0.18717948717948718" />
         <entry key="app/src/main/res/layout/activity_asnyc.xml" value="0.17094017094017094" />
         <entry key="app/src/main/res/layout/activity_fragment.xml" value="0.1743659420289855" />
         <entry key="app/src/main/res/layout/activity_homework1.xml" value="0.25" />
@@ -17,11 +18,14 @@
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.18717948717948718" />
         <entry key="app/src/main/res/layout/activity_one.xml" value="0.1893162393162393" />
         <entry key="app/src/main/res/layout/activity_one2.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/activity_phone_book.xml" value="0.18717948717948718" />
+        <entry key="app/src/main/res/layout/activity_phone_book_detail.xml" value="0.17564102564102563" />
         <entry key="app/src/main/res/layout/activity_thread.xml" value="0.1282051282051282" />
         <entry key="app/src/main/res/layout/activity_three2.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_two2.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_view_control02.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_youtube.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/car_item.xml" value="0.18717948717948718" />
         <entry key="app/src/main/res/layout/constarintlayout_homework2.xml" value="0.13994565217391305" />
         <entry key="app/src/main/res/layout/constraintlayout_01.xml" value="0.21367521367521367" />
         <entry key="app/src/main/res/layout/constraintlayout_2.xml" value="0.20341880341880342" />
@@ -39,6 +43,7 @@
         <entry key="app/src/main/res/layout/linearlayout_05.xml" value="0.26153846153846155" />
         <entry key="app/src/main/res/layout/linearlayout_homwork.xml" value="0.20606884057971014" />
         <entry key="app/src/main/res/layout/margin_padding.xml" value="0.25271739130434784" />
+        <entry key="app/src/main/res/layout/phonebook_item.xml" value="0.18717948717948718" />
         <entry key="app/src/main/res/layout/relativelayout.xml" value="0.17136752136752137" />
         <entry key="app/src/main/res/layout/relativelayout_2.xml" value="0.1793478260869565" />
         <entry key="app/src/main/res/layout/relativelayout_homework1.xml" value="0.26153846153846155" />
