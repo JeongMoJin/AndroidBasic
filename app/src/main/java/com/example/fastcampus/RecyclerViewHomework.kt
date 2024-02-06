@@ -24,6 +24,15 @@ class RecyclerViewHomework : AppCompatActivity() {
         chatList.add(Chat("안녕하세요", true))
         chatList.add(Chat("안녕하세요", false))
         chatList.add(Chat("안녕하세요", true))
+        chatList.add(Chat("안녕하세요", true))
+        chatList.add(Chat("안녕하세요", true))
+        chatList.add(Chat("안녕하세요", true))
+        chatList.add(Chat("안녕하세요", true))
+
+        val adapter = ChatRecyclerAdapter(
+            chatList = chatList,
+            inflater = LayoutInflater.from(this@RecyclerViewHomework)
+        )
 
         with(findViewById<RecyclerView>(R.id.chatRecyclerView)) {
             this.layoutManager = LinearLayoutManager(this@RecyclerViewHomework)
@@ -41,21 +50,45 @@ class ChatRecyclerAdapter(
     val inflater: LayoutInflater
 ): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
-    class ViewHolder(itemView : View): RecyclerView.ViewHolder(itemView){
-        val textView: TextView
+    class RightViewHolder(itemView : View): RecyclerView.ViewHolder(itemView){
+        val rightTextView: TextView
         init{
-            textView = itemView.findViewById(R.id.chatTextRight)
+            rightTextView = itemView.findViewById(R.id.chatTextRight)
+        }
+    }
+
+    class LeftViewHolder(itemView : View): RecyclerView.ViewHolder(itemView){
+        val leftTextView: TextView
+        init{
+            leftTextView = itemView.findViewById(R.id.chatTextLefr)
+        }
+    }
+
+    override fun getItemViewType(position: Int): Int {
+        when( chatList.get(position).is_right) {
+            true -> return 1
+            false -> return 0
         }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
-        val view = inflater.inflate(R.layout.chatitem_right, parent, false)
-        return ViewHolder(view)
+        when (viewType) {
+            1 -> {
+                return RightViewHolder(inflater.inflate(R.layout.chatitem_right, parent, false))
+            }
+            else -> {
+                return LeftViewHolder(inflater.inflate(R.layout.chatitem_left, parent, false))
+            }
+
+        }
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         val chat = chatList.get(position)
-        (holder as ViewHolder).textView.text = chat.message
+        when(chat.is_right) {
+            true->(holder as RightViewHolder).rightTextView.text = chat.message
+            false->(holder as LeftViewHolder).leftTextView.text = chat.message
+        }
     }
 
     override fun getItemCount(): Int {

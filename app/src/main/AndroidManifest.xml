@@ -12,13 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FastCampus">
         <activity
+            android:name=".TablayoutPagerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecyclerViewHomework"
+            android:exported="true" />
+        <activity
             android:name=".RecyclerViewActivity"
             android:exported="true" />
         <activity
             android:name=".ListViewActivity"
             android:exported="true" />
         <activity
-            android:name=".RecyclerViewHomework"
+            android:name=".TablayoutPagerNewActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
