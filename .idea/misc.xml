@@ -25,8 +25,10 @@
         <entry key="app/src/main/res/layout/activity_phone_book_detail.xml" value="0.17564102564102563" />
         <entry key="app/src/main/res/layout/activity_recycler_view.xml" value="0.18717948717948718" />
         <entry key="app/src/main/res/layout/activity_recycler_view_homework.xml" value="0.18717948717948718" />
+        <entry key="app/src/main/res/layout/activity_shared_preference.xml" value="0.18717948717948718" />
         <entry key="app/src/main/res/layout/activity_tablayout_pager.xml" value="0.18717948717948718" />
         <entry key="app/src/main/res/layout/activity_tablayout_pager_new.xml" value="0.17564102564102563" />
+        <entry key="app/src/main/res/layout/activity_tablayout_pager_simple.xml" value="0.18717948717948718" />
         <entry key="app/src/main/res/layout/activity_thread.xml" value="0.1282051282051282" />
         <entry key="app/src/main/res/layout/activity_three2.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_two2.xml" value="0.16893115942028986" />

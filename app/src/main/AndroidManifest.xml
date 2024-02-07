@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FastCampus">
         <activity
+            android:name=".TablayoutPagerSimpleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TablayoutPagerNewActivity"
+            android:exported="true" />
+        <activity
             android:name=".TablayoutPagerActivity"
             android:exported="true" />
         <activity
@@ -24,7 +30,7 @@
             android:name=".ListViewActivity"
             android:exported="true" />
         <activity
-            android:name=".TablayoutPagerNewActivity"
+            android:name=".SharedPreferenceActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
