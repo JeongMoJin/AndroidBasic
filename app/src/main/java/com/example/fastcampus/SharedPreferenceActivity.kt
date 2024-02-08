@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.TextView
 
 class SharedPreferenceActivity : AppCompatActivity() {
@@ -22,12 +23,29 @@ class SharedPreferenceActivity : AppCompatActivity() {
             // MODE_MULTI_PROCESS: 이미 호출되어 사용중인지 체크
             // MODE_APPEND: 기존 preference에 신규로 추가
             val editor : SharedPreferences.Editor = sharedPreferences.edit()
-            editor.putString("key", "hello")
+            editor.putString("key1", "hello One") // key-value 방식으로 데이터를 저장
+            editor.putString("key2", "hello Two") // key-value 방식으로 데이터를 저장
             editor.commit()
-
-
-
-
         }
+        findViewById<TextView>(R.id.read).setOnClickListener {
+            val sharedPreferences = getSharedPreferences("table_name", Context.MODE_PRIVATE)
+            val valueOne = sharedPreferences.getString("key1", "Wrong")
+            val valueTwo = sharedPreferences.getString("key2", "Wrong")
+            Log.d("testt",valueOne!!)
+            Log.d("testt",valueTwo!!)
+        }
+        findViewById<TextView>(R.id.update).setOnClickListener {
+            val sharedPreferences = getSharedPreferences("table_name", Context.MODE_PRIVATE)
+            val editor : SharedPreferences.Editor = sharedPreferences.edit()
+            editor.putString("key1", "hello hello")
+            editor.commit()
+        }
+        findViewById<TextView>(R.id.delete).setOnClickListener {
+            val sharedPreferences = getSharedPreferences("table_name", Context.MODE_PRIVATE)
+            val editor: SharedPreferences.Editor = sharedPreferences.edit()
+            editor.clear()
+            editor.commit()
+        }
+
     }
 }

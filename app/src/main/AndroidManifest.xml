@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FastCampus">
         <activity
+            android:name=".SharedPreferenceActivity"
+            android:exported="true" />
+        <activity
             android:name=".TablayoutPagerSimpleActivity"
             android:exported="true" />
         <activity
@@ -30,7 +33,7 @@
             android:name=".ListViewActivity"
             android:exported="true" />
         <activity
-            android:name=".SharedPreferenceActivity"
+            android:name=".RoomActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
