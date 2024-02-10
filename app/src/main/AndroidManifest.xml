@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FastCampus">
         <activity
+            android:name=".RoomActivity"
+            android:exported="true" />
+        <activity
             android:name=".SharedPreferenceActivity"
             android:exported="true" />
         <activity
@@ -33,7 +36,7 @@
             android:name=".ListViewActivity"
             android:exported="true" />
         <activity
-            android:name=".RoomActivity"
+            android:name=".NetworkActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
