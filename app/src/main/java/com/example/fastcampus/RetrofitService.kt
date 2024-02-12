@@ -7,7 +7,13 @@ import retrofit2.http.POST
 
 class StudentFromServer (
     val id: Int, val name: String, val age: Int, val intro: String
-        )
+        ){
+    constructor( name :String,  age : Int, intro : String) : this(0, name,age, intro)
+}
+
+class YoutubeItem(
+    val id: Int, val title: String, val content: String, val video : String, val thumnail: String
+)
 
 
 interface RetrofitService {
@@ -19,5 +25,13 @@ interface RetrofitService {
     fun createStudent(
         @Body params: HashMap<String, Any>
     ): Call<StudentFromServer>
+
+    @POST("json/students/")
+    fun easyCreateStudent(
+        @Body student : StudentFromServer
+    ): Call<StudentFromServer>
+
+    @GET("youtube/list/")
+    fun getYoutubeItemList(): Call<ArrayList<YoutubeItem>>
 
 }

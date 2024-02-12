@@ -21,6 +21,7 @@
         <entry key="app/src/main/res/layout/activity_main3.xml" value="0.18717948717948718" />
         <entry key="app/src/main/res/layout/activity_one.xml" value="0.1893162393162393" />
         <entry key="app/src/main/res/layout/activity_one2.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/activity_permision.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_phone_book.xml" value="0.18717948717948718" />
         <entry key="app/src/main/res/layout/activity_phone_book_detail.xml" value="0.17564102564102563" />
         <entry key="app/src/main/res/layout/activity_recycler_view.xml" value="0.18717948717948718" />
@@ -35,7 +36,7 @@
         <entry key="app/src/main/res/layout/activity_three2.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_two2.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_view_control02.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_youtube.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_youtube.xml" value="0.2" />
         <entry key="app/src/main/res/layout/car_item.xml" value="0.18717948717948718" />
         <entry key="app/src/main/res/layout/chatitem_left.xml" value="0.18717948717948718" />
         <entry key="app/src/main/res/layout/chatitem_right.xml" value="0.18717948717948718" />

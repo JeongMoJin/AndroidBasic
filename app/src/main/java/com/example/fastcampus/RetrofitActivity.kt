@@ -73,8 +73,24 @@ class RetrofitActivity : AppCompatActivity() {
                     Log.d("testt", "요청 실패")
                 }
             })
-
         }
+        findViewById<TextView>(R.id.easyEreateStudent).setOnClickListener {
+            val student = StudentFromServer(name = "서울", age =200, intro = "well com to seoul")
+            retrofitService.easyCreateStudent(student).enqueue(object  : Callback<StudentFromServer>{
+                override fun onResponse(
+                    call: Call<StudentFromServer>,
+                    response: Response<StudentFromServer>
+                ) {
+                    val student = response.body()
+                    Log.d("testt", "등록한 학생 : " + student!!.name)
+                }
+
+                override fun onFailure(call: Call<StudentFromServer>, t: Throwable) {
+                    Log.d("testt", "요청 실패")
+                }
+            })
+        }
+
 
     }
 }

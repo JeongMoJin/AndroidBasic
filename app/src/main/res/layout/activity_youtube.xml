@@ -17,10 +17,10 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:src="@drawable/youtube_logo"
+            android:layout_marginLeft="8dp"
             android:layout_marginRight="16dp"
-            />
-
+            android:src="@drawable/youtube_logo"/>
+        
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -34,5 +34,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>
