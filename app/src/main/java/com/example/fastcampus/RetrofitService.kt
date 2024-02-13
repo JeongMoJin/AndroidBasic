@@ -15,8 +15,15 @@ class YoutubeItem(
     val id: Int, val title: String, val content: String, val video : String, val thumnail: String
 )
 
+class MelonItem(
+    val id:Int, val title:String, val song:String, val thumnail: String
+)
+
 
 interface RetrofitService {
+
+    @GET("melon/list/")
+    fun getMelonItemList():Call<ArrayList<MelonItem>>
 
     @GET("json/students")
     fun getStudentList(): Call<ArrayList<StudentFromServer>>
