@@ -20,5 +20,6 @@ class ActivityOne : AppCompatActivity() {
             startActivity(Intent(this@ActivityOne, ActivityThree::class.java))
         }
 
+        // Android Up !!!
     }
 }
